@@ -1,0 +1,25 @@
+{
+  "name": "ndut-telemetry",
+  "version": "0.6.0",
+  "description": "Telemetry Data Ingest for Ndut Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardhi/ndut-telemetry.git"
+  },
+  "keywords": [
+    "ndut",
+    "telemetry",
+    "ingest",
+    "fastify"
+  ],
+  "author": "Ardhi Lukianto <ardhi@lukianto.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardhi/ndut-telemetry/issues"
+  },
+  "homepage": "https://github.com/ardhi/ndut-telemetry#readme"
+}
