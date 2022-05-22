@@ -13,13 +13,11 @@ module.exports = {
         }
       },
       required: ['parser']
-    },
-    body: {
-      type: 'object'
     }
   },
   async handler (request, reply) {
-    const parser = await getIngestParser.call(this, request, request.body)
+    request.query = request.query || {}
+    const parser = await getIngestParser.call(this, request, request.query.body)
     return await parser.handler.call(this, request, reply)
   }
 }
